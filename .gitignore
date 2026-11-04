@@ -9,3 +9,5 @@ server/src/data/cache/
 npm-debug.log*
 .DS_Store
 
+# Impostazioni locali di Claude Code (non versionate)
+.claude/settings.local.json
