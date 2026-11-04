@@ -1,0 +1,6 @@
+# Le pagine dell'app richiedono l'accesso: si indicizzano solo quelle pubbliche.
+User-agent: *
+Allow: /$
+Allow: /login
+Allow: /privacy
+Disallow: /

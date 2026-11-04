@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - name: Install (client e server, npm workspaces)
+        run: npm ci
+      - name: Lint (ESLint su client e server)
+        run: npm run lint
+      - name: Test (server, node:test)
+        run: npm test
+      - name: Build (client, Vite)
+        run: npm run build

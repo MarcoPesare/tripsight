@@ -1,0 +1,1958 @@
+{
+ "_info": "Dati FITTIZI per FLIGHT_PROVIDER=mock, generati da scripts/generate-mock-flights.js. Compagnie con codici finti (ZZ Demo Air, XX Demo Partner); aeroporti reali (OurAirports); orari plausibili. ZZ206 ha due tratte, XX3642 è un codeshare su due voli, ZZ9999 non esiste, ZZ9001 simula la quota esaurita, ZZ9002 una chiave non valida.",
+ "routes": {
+  "ZZ100": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ100",
+    "flight_number": "100",
+    "dep_iata": "TRN",
+    "arr_iata": "BCN",
+    "dep_time": "06:00",
+    "dep_time_utc": "05:00",
+    "arr_time": "07:18",
+    "arr_time_utc": "06:18",
+    "duration": 78,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ101": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ101",
+    "flight_number": "101",
+    "dep_iata": "BCN",
+    "arr_iata": "TRN",
+    "dep_time": "09:20",
+    "dep_time_utc": "08:20",
+    "arr_time": "10:38",
+    "arr_time_utc": "09:38",
+    "duration": 78,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ102": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ102",
+    "flight_number": "102",
+    "dep_iata": "TRN",
+    "arr_iata": "AMS",
+    "dep_time": "11:25",
+    "dep_time_utc": "10:25",
+    "arr_time": "12:58",
+    "arr_time_utc": "11:58",
+    "duration": 93,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ103": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ103",
+    "flight_number": "103",
+    "dep_iata": "AMS",
+    "arr_iata": "TRN",
+    "dep_time": "14:45",
+    "dep_time_utc": "13:45",
+    "arr_time": "16:18",
+    "arr_time_utc": "15:18",
+    "duration": 93,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ104": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ104",
+    "flight_number": "104",
+    "dep_iata": "TRN",
+    "arr_iata": "LIS",
+    "dep_time": "16:50",
+    "dep_time_utc": "15:50",
+    "arr_time": "18:20",
+    "arr_time_utc": "18:20",
+    "duration": 150,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ105": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ105",
+    "flight_number": "105",
+    "dep_iata": "LIS",
+    "arr_iata": "TRN",
+    "dep_time": "19:10",
+    "dep_time_utc": "19:10",
+    "arr_time": "22:40",
+    "arr_time_utc": "21:40",
+    "duration": 150,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ106": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ106",
+    "flight_number": "106",
+    "dep_iata": "TRN",
+    "arr_iata": "VIE",
+    "dep_time": "06:15",
+    "dep_time_utc": "05:15",
+    "arr_time": "07:43",
+    "arr_time_utc": "06:43",
+    "duration": 88,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ107": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ107",
+    "flight_number": "107",
+    "dep_iata": "VIE",
+    "arr_iata": "TRN",
+    "dep_time": "09:35",
+    "dep_time_utc": "08:35",
+    "arr_time": "11:03",
+    "arr_time_utc": "10:03",
+    "duration": 88,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ108": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ108",
+    "flight_number": "108",
+    "dep_iata": "TRN",
+    "arr_iata": "CPH",
+    "dep_time": "11:40",
+    "dep_time_utc": "10:40",
+    "arr_time": "13:43",
+    "arr_time_utc": "12:43",
+    "duration": 123,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ109": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ109",
+    "flight_number": "109",
+    "dep_iata": "CPH",
+    "arr_iata": "TRN",
+    "dep_time": "14:00",
+    "dep_time_utc": "13:00",
+    "arr_time": "16:03",
+    "arr_time_utc": "15:03",
+    "duration": 123,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ110": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ110",
+    "flight_number": "110",
+    "dep_iata": "TRN",
+    "arr_iata": "CTA",
+    "dep_time": "16:05",
+    "dep_time_utc": "15:05",
+    "arr_time": "17:56",
+    "arr_time_utc": "16:56",
+    "duration": 111,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ111": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ111",
+    "flight_number": "111",
+    "dep_iata": "CTA",
+    "arr_iata": "TRN",
+    "dep_time": "19:25",
+    "dep_time_utc": "18:25",
+    "arr_time": "21:16",
+    "arr_time_utc": "20:16",
+    "duration": 111,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ112": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ112",
+    "flight_number": "112",
+    "dep_iata": "TRN",
+    "arr_iata": "BRI",
+    "dep_time": "06:30",
+    "dep_time_utc": "05:30",
+    "arr_time": "08:07",
+    "arr_time_utc": "07:07",
+    "duration": 97,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ113": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ113",
+    "flight_number": "113",
+    "dep_iata": "BRI",
+    "arr_iata": "TRN",
+    "dep_time": "09:50",
+    "dep_time_utc": "08:50",
+    "arr_time": "11:27",
+    "arr_time_utc": "10:27",
+    "duration": 97,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ114": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ114",
+    "flight_number": "114",
+    "dep_iata": "TRN",
+    "arr_iata": "MUC",
+    "dep_time": "11:55",
+    "dep_time_utc": "10:55",
+    "arr_time": "13:01",
+    "arr_time_utc": "12:01",
+    "duration": 66,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ115": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ115",
+    "flight_number": "115",
+    "dep_iata": "MUC",
+    "arr_iata": "TRN",
+    "dep_time": "14:15",
+    "dep_time_utc": "13:15",
+    "arr_time": "15:21",
+    "arr_time_utc": "14:21",
+    "duration": 66,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ116": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ116",
+    "flight_number": "116",
+    "dep_iata": "MXP",
+    "arr_iata": "LGW",
+    "dep_time": "13:00",
+    "dep_time_utc": "12:00",
+    "arr_time": "13:39",
+    "arr_time_utc": "13:39",
+    "duration": 99,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ117": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ117",
+    "flight_number": "117",
+    "dep_iata": "LGW",
+    "arr_iata": "MXP",
+    "dep_time": "16:20",
+    "dep_time_utc": "16:20",
+    "arr_time": "18:59",
+    "arr_time_utc": "17:59",
+    "duration": 99,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ118": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ118",
+    "flight_number": "118",
+    "dep_iata": "MXP",
+    "arr_iata": "BUD",
+    "dep_time": "18:25",
+    "dep_time_utc": "17:25",
+    "arr_time": "19:59",
+    "arr_time_utc": "18:59",
+    "duration": 94,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ119": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ119",
+    "flight_number": "119",
+    "dep_iata": "BUD",
+    "arr_iata": "MXP",
+    "dep_time": "21:45",
+    "dep_time_utc": "20:45",
+    "arr_time": "23:19",
+    "arr_time_utc": "22:19",
+    "duration": 94,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ120": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ120",
+    "flight_number": "120",
+    "dep_iata": "MXP",
+    "arr_iata": "DUB",
+    "dep_time": "08:50",
+    "dep_time_utc": "07:50",
+    "arr_time": "10:06",
+    "arr_time_utc": "10:06",
+    "duration": 136,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ121": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ121",
+    "flight_number": "121",
+    "dep_iata": "DUB",
+    "arr_iata": "MXP",
+    "dep_time": "11:10",
+    "dep_time_utc": "11:10",
+    "arr_time": "14:26",
+    "arr_time_utc": "13:26",
+    "duration": 136,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ122": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ122",
+    "flight_number": "122",
+    "dep_iata": "MXP",
+    "arr_iata": "TIA",
+    "dep_time": "13:15",
+    "dep_time_utc": "12:15",
+    "arr_time": "15:02",
+    "arr_time_utc": "14:02",
+    "duration": 107,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ123": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ123",
+    "flight_number": "123",
+    "dep_iata": "TIA",
+    "arr_iata": "MXP",
+    "dep_time": "16:35",
+    "dep_time_utc": "15:35",
+    "arr_time": "18:22",
+    "arr_time_utc": "17:22",
+    "duration": 107,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ124": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ124",
+    "flight_number": "124",
+    "dep_iata": "MXP",
+    "arr_iata": "NAP",
+    "dep_time": "18:40",
+    "dep_time_utc": "17:40",
+    "arr_time": "20:03",
+    "arr_time_utc": "19:03",
+    "duration": 83,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ125": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ125",
+    "flight_number": "125",
+    "dep_iata": "NAP",
+    "arr_iata": "MXP",
+    "dep_time": "21:00",
+    "dep_time_utc": "20:00",
+    "arr_time": "22:23",
+    "arr_time_utc": "21:23",
+    "duration": 83,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ126": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ126",
+    "flight_number": "126",
+    "dep_iata": "MXP",
+    "arr_iata": "IST",
+    "dep_time": "08:05",
+    "dep_time_utc": "07:05",
+    "arr_time": "12:44",
+    "arr_time_utc": "09:44",
+    "duration": 159,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ127": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ127",
+    "flight_number": "127",
+    "dep_iata": "IST",
+    "arr_iata": "MXP",
+    "dep_time": "11:25",
+    "dep_time_utc": "08:25",
+    "arr_time": "12:04",
+    "arr_time_utc": "11:04",
+    "duration": 159,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ128": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ128",
+    "flight_number": "128",
+    "dep_iata": "MXP",
+    "arr_iata": "ZRH",
+    "dep_time": "13:30",
+    "dep_time_utc": "12:30",
+    "arr_time": "14:16",
+    "arr_time_utc": "13:16",
+    "duration": 46,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ129": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ129",
+    "flight_number": "129",
+    "dep_iata": "ZRH",
+    "arr_iata": "MXP",
+    "dep_time": "16:50",
+    "dep_time_utc": "15:50",
+    "arr_time": "17:36",
+    "arr_time_utc": "16:36",
+    "duration": 46,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ130": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ130",
+    "flight_number": "130",
+    "dep_iata": "MXP",
+    "arr_iata": "CDG",
+    "dep_time": "18:55",
+    "dep_time_utc": "17:55",
+    "arr_time": "20:11",
+    "arr_time_utc": "19:11",
+    "duration": 76,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ131": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ131",
+    "flight_number": "131",
+    "dep_iata": "CDG",
+    "arr_iata": "MXP",
+    "dep_time": "21:15",
+    "dep_time_utc": "20:15",
+    "arr_time": "22:31",
+    "arr_time_utc": "21:31",
+    "duration": 76,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ132": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ132",
+    "flight_number": "132",
+    "dep_iata": "LIN",
+    "arr_iata": "PRG",
+    "dep_time": "20:00",
+    "dep_time_utc": "19:00",
+    "arr_time": "21:19",
+    "arr_time_utc": "20:19",
+    "duration": 79,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ133": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ133",
+    "flight_number": "133",
+    "dep_iata": "PRG",
+    "arr_iata": "LIN",
+    "dep_time": "23:20",
+    "dep_time_utc": "22:20",
+    "arr_time": "00:39",
+    "arr_time_utc": "23:39",
+    "duration": 79,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ134": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ134",
+    "flight_number": "134",
+    "dep_iata": "LIN",
+    "arr_iata": "OTP",
+    "dep_time": "10:25",
+    "dep_time_utc": "09:25",
+    "arr_time": "13:37",
+    "arr_time_utc": "11:37",
+    "duration": 132,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ135": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ135",
+    "flight_number": "135",
+    "dep_iata": "OTP",
+    "arr_iata": "LIN",
+    "dep_time": "13:45",
+    "dep_time_utc": "11:45",
+    "arr_time": "14:57",
+    "arr_time_utc": "13:57",
+    "duration": 132,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ136": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ136",
+    "flight_number": "136",
+    "dep_iata": "LIN",
+    "arr_iata": "PMO",
+    "dep_time": "15:50",
+    "dep_time_utc": "14:50",
+    "arr_time": "17:27",
+    "arr_time_utc": "16:27",
+    "duration": 97,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ137": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ137",
+    "flight_number": "137",
+    "dep_iata": "PMO",
+    "arr_iata": "LIN",
+    "dep_time": "18:10",
+    "dep_time_utc": "17:10",
+    "arr_time": "19:47",
+    "arr_time_utc": "18:47",
+    "duration": 97,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ138": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ138",
+    "flight_number": "138",
+    "dep_iata": "LIN",
+    "arr_iata": "CAG",
+    "dep_time": "20:15",
+    "dep_time_utc": "19:15",
+    "arr_time": "21:38",
+    "arr_time_utc": "20:38",
+    "duration": 83,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ139": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ139",
+    "flight_number": "139",
+    "dep_iata": "CAG",
+    "arr_iata": "LIN",
+    "dep_time": "23:35",
+    "dep_time_utc": "22:35",
+    "arr_time": "00:58",
+    "arr_time_utc": "23:58",
+    "duration": 83,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ140": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ140",
+    "flight_number": "140",
+    "dep_iata": "LIN",
+    "arr_iata": "BRU",
+    "dep_time": "10:40",
+    "dep_time_utc": "09:40",
+    "arr_time": "12:04",
+    "arr_time_utc": "11:04",
+    "duration": 84,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ141": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ141",
+    "flight_number": "141",
+    "dep_iata": "BRU",
+    "arr_iata": "LIN",
+    "dep_time": "13:00",
+    "dep_time_utc": "12:00",
+    "arr_time": "14:24",
+    "arr_time_utc": "13:24",
+    "duration": 84,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ142": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ142",
+    "flight_number": "142",
+    "dep_iata": "LIN",
+    "arr_iata": "MAD",
+    "dep_time": "15:05",
+    "dep_time_utc": "14:05",
+    "arr_time": "17:06",
+    "arr_time_utc": "16:06",
+    "duration": 121,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ143": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ143",
+    "flight_number": "143",
+    "dep_iata": "MAD",
+    "arr_iata": "LIN",
+    "dep_time": "18:25",
+    "dep_time_utc": "17:25",
+    "arr_time": "20:26",
+    "arr_time_utc": "19:26",
+    "duration": 121,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ144": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ144",
+    "flight_number": "144",
+    "dep_iata": "LIN",
+    "arr_iata": "FRA",
+    "dep_time": "20:30",
+    "dep_time_utc": "19:30",
+    "arr_time": "21:39",
+    "arr_time_utc": "20:39",
+    "duration": 69,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ145": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ145",
+    "flight_number": "145",
+    "dep_iata": "FRA",
+    "arr_iata": "LIN",
+    "dep_time": "23:50",
+    "dep_time_utc": "22:50",
+    "arr_time": "00:59",
+    "arr_time_utc": "23:59",
+    "duration": 69,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ146": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ146",
+    "flight_number": "146",
+    "dep_iata": "LIN",
+    "arr_iata": "ATH",
+    "dep_time": "10:55",
+    "dep_time_utc": "09:55",
+    "arr_time": "14:18",
+    "arr_time_utc": "12:18",
+    "duration": 143,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ147": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ147",
+    "flight_number": "147",
+    "dep_iata": "ATH",
+    "arr_iata": "LIN",
+    "dep_time": "13:15",
+    "dep_time_utc": "11:15",
+    "arr_time": "14:38",
+    "arr_time_utc": "13:38",
+    "duration": 143,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ148": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ148",
+    "flight_number": "148",
+    "dep_iata": "BGY",
+    "arr_iata": "CTA",
+    "dep_time": "12:00",
+    "dep_time_utc": "11:00",
+    "arr_time": "13:48",
+    "arr_time_utc": "12:48",
+    "duration": 108,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ149": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ149",
+    "flight_number": "149",
+    "dep_iata": "CTA",
+    "arr_iata": "BGY",
+    "dep_time": "15:20",
+    "dep_time_utc": "14:20",
+    "arr_time": "17:08",
+    "arr_time_utc": "16:08",
+    "duration": 108,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ150": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ150",
+    "flight_number": "150",
+    "dep_iata": "BGY",
+    "arr_iata": "BRI",
+    "dep_time": "17:25",
+    "dep_time_utc": "16:25",
+    "arr_time": "18:53",
+    "arr_time_utc": "17:53",
+    "duration": 88,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ151": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ151",
+    "flight_number": "151",
+    "dep_iata": "BRI",
+    "arr_iata": "BGY",
+    "dep_time": "20:45",
+    "dep_time_utc": "19:45",
+    "arr_time": "22:13",
+    "arr_time_utc": "21:13",
+    "duration": 88,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ152": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ152",
+    "flight_number": "152",
+    "dep_iata": "BGY",
+    "arr_iata": "MUC",
+    "dep_time": "07:50",
+    "dep_time_utc": "06:50",
+    "arr_time": "08:46",
+    "arr_time_utc": "07:46",
+    "duration": 56,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ153": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ153",
+    "flight_number": "153",
+    "dep_iata": "MUC",
+    "arr_iata": "BGY",
+    "dep_time": "10:10",
+    "dep_time_utc": "09:10",
+    "arr_time": "11:06",
+    "arr_time_utc": "10:06",
+    "duration": 56,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ154": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ154",
+    "flight_number": "154",
+    "dep_iata": "BGY",
+    "arr_iata": "BCN",
+    "dep_time": "12:15",
+    "dep_time_utc": "11:15",
+    "arr_time": "13:45",
+    "arr_time_utc": "12:45",
+    "duration": 90,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ155": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ155",
+    "flight_number": "155",
+    "dep_iata": "BCN",
+    "arr_iata": "BGY",
+    "dep_time": "15:35",
+    "dep_time_utc": "14:35",
+    "arr_time": "17:05",
+    "arr_time_utc": "16:05",
+    "duration": 90,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ156": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ156",
+    "flight_number": "156",
+    "dep_iata": "BGY",
+    "arr_iata": "AMS",
+    "dep_time": "17:40",
+    "dep_time_utc": "16:40",
+    "arr_time": "19:13",
+    "arr_time_utc": "18:13",
+    "duration": 93,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ157": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ157",
+    "flight_number": "157",
+    "dep_iata": "AMS",
+    "arr_iata": "BGY",
+    "dep_time": "20:00",
+    "dep_time_utc": "19:00",
+    "arr_time": "21:33",
+    "arr_time_utc": "20:33",
+    "duration": 93,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ158": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ158",
+    "flight_number": "158",
+    "dep_iata": "BGY",
+    "arr_iata": "LIS",
+    "dep_time": "07:05",
+    "dep_time_utc": "06:05",
+    "arr_time": "08:48",
+    "arr_time_utc": "08:48",
+    "duration": 163,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ159": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ159",
+    "flight_number": "159",
+    "dep_iata": "LIS",
+    "arr_iata": "BGY",
+    "dep_time": "10:25",
+    "dep_time_utc": "10:25",
+    "arr_time": "14:08",
+    "arr_time_utc": "13:08",
+    "duration": 163,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ160": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ160",
+    "flight_number": "160",
+    "dep_iata": "BGY",
+    "arr_iata": "VIE",
+    "dep_time": "12:30",
+    "dep_time_utc": "11:30",
+    "arr_time": "13:45",
+    "arr_time_utc": "12:45",
+    "duration": 75,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ161": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ161",
+    "flight_number": "161",
+    "dep_iata": "VIE",
+    "arr_iata": "BGY",
+    "dep_time": "15:50",
+    "dep_time_utc": "14:50",
+    "arr_time": "17:05",
+    "arr_time_utc": "16:05",
+    "duration": 75,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ162": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ162",
+    "flight_number": "162",
+    "dep_iata": "BGY",
+    "arr_iata": "CPH",
+    "dep_time": "17:55",
+    "dep_time_utc": "16:55",
+    "arr_time": "19:52",
+    "arr_time_utc": "18:52",
+    "duration": 117,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ163": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ163",
+    "flight_number": "163",
+    "dep_iata": "CPH",
+    "arr_iata": "BGY",
+    "dep_time": "20:15",
+    "dep_time_utc": "19:15",
+    "arr_time": "22:12",
+    "arr_time_utc": "21:12",
+    "duration": 117,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ164": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ164",
+    "flight_number": "164",
+    "dep_iata": "FCO",
+    "arr_iata": "IST",
+    "dep_time": "19:00",
+    "dep_time_utc": "18:00",
+    "arr_time": "23:15",
+    "arr_time_utc": "20:15",
+    "duration": 135,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ165": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ165",
+    "flight_number": "165",
+    "dep_iata": "IST",
+    "arr_iata": "FCO",
+    "dep_time": "22:20",
+    "dep_time_utc": "19:20",
+    "arr_time": "22:35",
+    "arr_time_utc": "21:35",
+    "duration": 135,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ166": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ166",
+    "flight_number": "166",
+    "dep_iata": "FCO",
+    "arr_iata": "ZRH",
+    "dep_time": "09:25",
+    "dep_time_utc": "08:25",
+    "arr_time": "10:48",
+    "arr_time_utc": "09:48",
+    "duration": 83,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ167": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ167",
+    "flight_number": "167",
+    "dep_iata": "ZRH",
+    "arr_iata": "FCO",
+    "dep_time": "12:45",
+    "dep_time_utc": "11:45",
+    "arr_time": "14:08",
+    "arr_time_utc": "13:08",
+    "duration": 83,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ168": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ168",
+    "flight_number": "168",
+    "dep_iata": "FCO",
+    "arr_iata": "CDG",
+    "dep_time": "14:50",
+    "dep_time_utc": "13:50",
+    "arr_time": "16:45",
+    "arr_time_utc": "15:45",
+    "duration": 115,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ169": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ169",
+    "flight_number": "169",
+    "dep_iata": "CDG",
+    "arr_iata": "FCO",
+    "dep_time": "17:10",
+    "dep_time_utc": "16:10",
+    "arr_time": "19:05",
+    "arr_time_utc": "18:05",
+    "duration": 115,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ170": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ170",
+    "flight_number": "170",
+    "dep_iata": "FCO",
+    "arr_iata": "LGW",
+    "dep_time": "19:15",
+    "dep_time_utc": "18:15",
+    "arr_time": "20:33",
+    "arr_time_utc": "20:33",
+    "duration": 138,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ171": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ171",
+    "flight_number": "171",
+    "dep_iata": "LGW",
+    "arr_iata": "FCO",
+    "dep_time": "22:35",
+    "dep_time_utc": "22:35",
+    "arr_time": "01:53",
+    "arr_time_utc": "00:53",
+    "duration": 138,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ172": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ172",
+    "flight_number": "172",
+    "dep_iata": "FCO",
+    "arr_iata": "BUD",
+    "dep_time": "09:40",
+    "dep_time_utc": "08:40",
+    "arr_time": "11:14",
+    "arr_time_utc": "10:14",
+    "duration": 94,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ173": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ173",
+    "flight_number": "173",
+    "dep_iata": "BUD",
+    "arr_iata": "FCO",
+    "dep_time": "12:00",
+    "dep_time_utc": "11:00",
+    "arr_time": "13:34",
+    "arr_time_utc": "12:34",
+    "duration": 94,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ174": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ174",
+    "flight_number": "174",
+    "dep_iata": "FCO",
+    "arr_iata": "DUB",
+    "dep_time": "14:05",
+    "dep_time_utc": "13:05",
+    "arr_time": "16:00",
+    "arr_time_utc": "16:00",
+    "duration": 175,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ175": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ175",
+    "flight_number": "175",
+    "dep_iata": "DUB",
+    "arr_iata": "FCO",
+    "dep_time": "17:25",
+    "dep_time_utc": "17:25",
+    "arr_time": "21:20",
+    "arr_time_utc": "20:20",
+    "duration": 175,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ176": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ176",
+    "flight_number": "176",
+    "dep_iata": "FCO",
+    "arr_iata": "TIA",
+    "dep_time": "19:30",
+    "dep_time_utc": "18:30",
+    "arr_time": "20:48",
+    "arr_time_utc": "19:48",
+    "duration": 78,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ177": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ177",
+    "flight_number": "177",
+    "dep_iata": "TIA",
+    "arr_iata": "FCO",
+    "dep_time": "22:50",
+    "dep_time_utc": "21:50",
+    "arr_time": "00:08",
+    "arr_time_utc": "23:08",
+    "duration": 78,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ178": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ178",
+    "flight_number": "178",
+    "dep_iata": "FCO",
+    "arr_iata": "NAP",
+    "dep_time": "09:55",
+    "dep_time_utc": "08:55",
+    "arr_time": "10:40",
+    "arr_time_utc": "09:40",
+    "duration": 45,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ179": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ179",
+    "flight_number": "179",
+    "dep_iata": "NAP",
+    "arr_iata": "FCO",
+    "dep_time": "12:15",
+    "dep_time_utc": "11:15",
+    "arr_time": "13:00",
+    "arr_time_utc": "12:00",
+    "duration": 45,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "ZZ206": [
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ206",
+    "flight_number": "206",
+    "dep_iata": "JFK",
+    "arr_iata": "MXP",
+    "dep_time": "22:20",
+    "dep_time_utc": "03:20",
+    "arr_time": "13:03",
+    "arr_time_utc": "12:03",
+    "duration": 523,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   {
+    "airline_iata": "ZZ",
+    "flight_iata": "ZZ206",
+    "flight_number": "206",
+    "dep_iata": "MXP",
+    "arr_iata": "DXB",
+    "dep_time": "14:15",
+    "dep_time_utc": "13:15",
+    "arr_time": "23:47",
+    "arr_time_utc": "19:47",
+    "duration": 392,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ],
+  "XX3642": [
+   {
+    "airline_iata": "XX",
+    "flight_iata": "XX3642",
+    "flight_number": "3642",
+    "dep_iata": "IBZ",
+    "arr_iata": "BCN",
+    "dep_time": "18:45",
+    "dep_time_utc": "17:45",
+    "arr_time": "19:36",
+    "arr_time_utc": "18:36",
+    "duration": 51,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   {
+    "airline_iata": "XX",
+    "flight_iata": "XX3642",
+    "flight_number": "3642",
+    "dep_iata": "MXP",
+    "arr_iata": "BCN",
+    "dep_time": "13:25",
+    "dep_time_utc": "12:25",
+    "arr_time": "14:50",
+    "arr_time_utc": "13:50",
+    "duration": 85,
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   }
+  ]
+ },
+ "schedules": {},
+ "airlines": {
+  "ZZ": [
+   {
+    "name": "Demo Air",
+    "iata_code": "ZZ"
+   }
+  ],
+  "XX": [
+   {
+    "name": "Demo Partner",
+    "iata_code": "XX"
+   }
+  ]
+ },
+ "errors": {
+  "ZZ9001": {
+   "code": "month_limit_exceeded",
+   "message": "The monthly request limit has been exceeded."
+  },
+  "ZZ9002": {
+   "code": "unknown_api_key",
+   "message": "Unknown API key"
+  }
+ }
+}
