@@ -11,3 +11,6 @@ npm-debug.log*
 
 # Impostazioni locali di Claude Code (non versionate)
 .claude/settings.local.json
+
+# Impostazioni locali dell'editor
+.vscode/
