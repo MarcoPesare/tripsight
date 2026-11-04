@@ -48,7 +48,7 @@ Nota: a fine 2025 la Commissione ha proposto un pacchetto di semplificazione ("D
 | Rettifica (art. 16) | Tutti i dati di viaggio sono modificabili nell'app; nome ed email per ora su richiesta via email |
 | Minimizzazione (art. 5.1.c) | Dalle email si salvano solo i campi estratti, mai il testo. Nessun cookie, nessuno strumento di analisi |
 | Limitazione della conservazione (art. 5.1.e) | Pulizia automatica giornaliera (`server/src/services/retention.js`): email gestite dopo 30 giorni, mai confermate dopo 90, token di recupero scaduti |
-| Sicurezza (art. 32) | Password bcrypt, JWT con segreto obbligatorio in produzione, limite di 20 tentativi ogni 15 minuti su login/registrazione/recupero |
+| Sicurezza (art. 32) | Password bcrypt, JWT con segreto obbligatorio in produzione, limite di 20 tentativi ogni 15 minuti su login/registrazione/recupero, limite di richieste per account su recupero volo, tariffe e import email |
 | Nessun dato a terzi non necessario | Font ospitati da Tripsight (prima Google Fonts), foto delle città scaricate dal server (prima dal browser verso Wikipedia) |
 | Privacy by default | Nessun tracciamento, nessuna pubblicità, nessuna condivisione |
 
@@ -63,6 +63,7 @@ Anche sotto i 250 dipendenti il registro è dovuto quando il trattamento non è 
 | Import email (incolla) | Inserimento automatico delle prenotazioni | Contratto (6.1.b) | Dati estratti, oggetto | Utenti | Hosting | 30 / 90 giorni |
 | Recupero password | Sicurezza dell'account | Contratto (6.1.b) | Email, token cifrato | Utenti | Resend | 30 minuti |
 | Limite tentativi | Sicurezza | Legittimo interesse (6.1.f), art. 32 | Indirizzo IP | Chiunque usi login/recupero | Nessuno | 15 minuti, solo in memoria |
+| Limite richieste per account | Sicurezza e continuità del servizio | Legittimo interesse (6.1.f), art. 32 | Identificativo dell'account, numero di richieste | Utenti | Nessuno | 15 minuti, solo in memoria |
 
 ### Fornitori (responsabili del trattamento, art. 28)
 

@@ -112,6 +112,7 @@ I dati degli aeroporti vengono da [OurAirports](https://ourairports.com/data/) (
 - Nessun cookie né tracciamento; font ospitati in locale e foto delle città scaricate dal server, così il browser non invia l'IP a terzi. Ogni foto mostra autore e licenza, con il link alla pagina del file su Wikimedia
 - Le chiamate ai fornitori di voli e tariffe partono dal server e contengono solo numero volo, tratta e date, mai dati dell'utente
 - Pulizia automatica dei dati email (30 giorni se gestiti, 90 se mai confermati) e limite ai tentativi di accesso
+- Limite di richieste per account sugli endpoint più costosi: recupero volo (30 ogni 15 minuti), tariffe di mercato (60) e import email incollate (20). Oltre la soglia il server risponde `429` con l'intestazione `Retry-After`. Il conteggio è in memoria, adatto a una singola istanza
 - Valutazione AI Act (l'app non usa sistemi di IA: solo regole e statistiche descrittive), registro dei trattamenti, fornitori e checklist pre-lancio in [`docs/compliance/README.md`](docs/compliance/README.md)
 
 ## Script
@@ -146,13 +147,11 @@ I dati fittizi dei voli si rigenerano con `node server/scripts/generate-mock-fli
 - il recupero per numero volo dipende da un fornitore esterno a quota limitata e non trova i voli stagionali né quelli fuori dall'orario attuale; per i voli passati gli orari vengono dall'orario attuale della compagnia
 - le tariffe di mercato sono le più basse trovate, di sola andata e senza bagaglio: indicano l'ordine di grandezza, non quanto si paga davvero
 - i dati sono salvati su un file JSON, adatto a una singola istanza
-- gli endpoint che chiamano fornitori esterni non hanno ancora un limite di richieste per utente
 
 **In programma:**
 
 - fornitore dati volo con storico dei voli passati
 - database relazionale
-- limite di richieste per utente sugli endpoint che chiamano fornitori esterni
 
 ## Come è stato sviluppato
 

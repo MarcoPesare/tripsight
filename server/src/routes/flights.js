@@ -1,12 +1,13 @@
 import { Router } from 'express';
 import { requireAuth } from '../middleware/requireAuth.js';
+import { providerLimits, userRateLimit } from '../middleware/rateLimit.js';
 import { estimateFare } from '../services/fareProvider.js';
 import { resolveFlight } from '../services/flightResolver.js';
 
 const router = Router();
 router.use(requireAuth);
 
-router.get('/resolve', async (req, res, next) => {
+router.get('/resolve', userRateLimit(providerLimits.flightResolve), async (req, res, next) => {
   try {
     res.json(await resolveFlight({
       flightNumber: req.query.flightNumber,
@@ -19,7 +20,7 @@ router.get('/resolve', async (req, res, next) => {
 });
 
 // Prezzo medio di mercato della tratta (sola andata, EUR) per il mese del volo.
-router.get('/fare-estimate', async (req, res, next) => {
+router.get('/fare-estimate', userRateLimit(providerLimits.fareEstimate), async (req, res, next) => {
   try {
     const from = String(req.query.from || '');
     const to = String(req.query.to || '');

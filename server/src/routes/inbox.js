@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { requireAuth } from '../middleware/requireAuth.js';
+import { providerLimits, userRateLimit } from '../middleware/rateLimit.js';
 import { readDb, updateDb } from '../services/database.js';
 import { airportCodes } from '../services/airportCatalog.js';
 import { addEmailToInbox, flightInput, parseEml } from '../services/inbox.js';
@@ -23,7 +24,7 @@ router.get('/', async (req, res, next) => {
 });
 
 // "Incolla email": testo copiato, HTML o sorgente .eml della conferma.
-router.post('/paste', async (req, res, next) => {
+router.post('/paste', userRateLimit(providerLimits.inboxPaste), async (req, res, next) => {
   try {
     const content = String(req.body.content || '');
 
